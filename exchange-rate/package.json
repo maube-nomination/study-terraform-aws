@@ -1,0 +1,17 @@
+{
+  "name": "exchange-rate",
+  "version": "1.0.0",
+  "description": "merci",
+  "private": true,
+  "author": "vmaerten",
+  "license": "private",
+  "scripts": {
+    "build": "ncc build index.js -o dist --source-map --license licenses.txt"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.31.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}

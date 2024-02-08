@@ -1,0 +1,4 @@
+exchange-rate/node_modules
+exchange-rate/dist
+
+infra/.terraform/providers
